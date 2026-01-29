@@ -99,3 +99,57 @@
     flex-direction: row;
     gap: 16px;
 }
+
+.card > button {
+    width: 60px;
+    height: 60px;
+    border : none;
+    background-color :rgba(249, 85, 85, 1);
+    border-radius : 50%;
+}
+.card > h3 {
+    font-size: 24px;
+    text-align: center;
+}
+.card > p{
+    font-size: 16px;
+    color: gray;
+    text-align: center;
+}
+.notes-title{
+    font-style: Bold;
+    font-size: 48px;
+
+}
+.notes-subtitle{
+    font-size: 16px;
+    color: gray;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 16px;
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 24px;
+    border-radius: 12px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    gap : 24px;
+    justify-content: space-around;
+}
+.notes-section{
+    padding: 60px 120px 60px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap : 40px;
+    background-color: rgb(255, 251, 251);
+} 
