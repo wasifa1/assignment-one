@@ -4,6 +4,13 @@
 
 
 }
+button, li, #logo-img, i {
+    transition: all 0.25s ease;
+    cursor: pointer;
+  }
+button:hover {
+    opacity: 0.85;
+  }
 .font-style-inter{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -37,11 +44,12 @@
 }
 .green-btn{
     font-size: 16px;
-    background-color: #30B868;
+    background-color: #49986a;
     border-radius: 4px;
     border : none;
     color: white;
     padding : 12px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
 
 }
 
@@ -73,10 +81,10 @@
 .green-text{
     font-weight: bold;
     font-size: 72px;
-    color :#30B868;
+    color :#49986a;
 }
 
-.subtitle{
+.banner-subtitle{
     font-size: 18px;
     color : white;
 }
@@ -89,7 +97,7 @@
 }
 .early{
     background-color: white;
-    color: #30B868;
+    color: #49986a;
     border-radius: 24px;
     padding : 6px;
     border: none;
@@ -161,7 +169,7 @@
     gap : 60px;
 }
 .right > h4 {
-    color: #30B868;
+    color: #49986a;
 }
 .check {
     display: flex;
@@ -180,4 +188,73 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+.card > button i {
+    font-size: 28px;   
+  }
+
+.think-container > h1 {
+    font-size: 40px;
+
+}
+.think-container{
+    border-radius: 12px;
+    background: rgba(247, 246, 242, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding : 80px;
+    gap : 24px;
+}
+.think-section{
+    padding : 0px 120px 120px 120px;
+}
+.think-container>p{
+    text-align: center;
+}
+.footer{
+    background: rgba(0, 25, 49, 1);
+    padding: 120px 120px 30px 120px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:80px;
+} 
+.f-top-right > p{
+    font-size: 20px;
+    color: white;
+
+}
+.footer-bottom{
+    font-size: 16px;
+    color: white;
+    border-top: 1px solid rgba(229, 231, 235, 0.2);
+    width : 100%;
+    text-align: center;
+    padding-top:24px;
+    
+}
+.footer-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width : 100%;
+    
+}
+.icons{
+    display: flex;
+    gap : 12px;
+}
+.icons> i{
+    
+    color: white;
+    font-size: 18px;
+}
+.f-top-right{
+    display: flex;
+    flex-direction: column;
+    gap : 16px;
+
+
 }
